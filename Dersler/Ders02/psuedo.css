@@ -1,0 +1,21 @@
+.link{
+    color: rgb(255, 230, 4);
+}
+.link:active{
+    color: blue;
+}
+.link:visited{
+    color: brown;
+}
+.link:hover{
+    color: blueviolet;
+}
+.list_item::first-letter{
+    color: blue;
+    font-size: 44px;
+}
+.text::after{
+content: "MErhaba ";
+color: aqua;
+font-size: 44px;
+}
